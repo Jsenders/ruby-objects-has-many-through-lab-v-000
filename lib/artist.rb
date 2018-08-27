@@ -8,7 +8,7 @@ class Artist
     @age = age
     @@all << self
   end
- 
+
 
   def self.all
     @@all
@@ -24,4 +24,3 @@ class Artist
   end
 
 end
-
