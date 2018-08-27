@@ -17,8 +17,4 @@ class Artist
     song.artist = self
   end
 
-  def genres
-    @songs.select {|song| song.genre}
-  end
-
 end
