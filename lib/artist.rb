@@ -1,13 +1,14 @@
-class Artist 
-  attr_accessor :name 
+class Artist
+  attr_accessor :name
 
   @@all = []
 
   def initialize(name)
-    @name = name 
+    @name = name
     @@all = []
-  end 
+  end
 
-  def self.all 
-  end 
-  
+  def self.all
+  end
+
+end
