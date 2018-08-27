@@ -3,12 +3,15 @@ class Artist
 
   @@all = []
 
-  def initialize(name)
+  def initialize(name, age)
     @name = name
-    @@all = []
+    @age = age
+    @@all << self
   end
+ 
 
   def self.all
+    @@all
   end
 
   def new_song(song)
@@ -21,3 +24,4 @@ class Artist
   end
 
 end
+
